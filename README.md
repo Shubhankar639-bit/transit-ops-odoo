@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=40&duration=3000&pause=1000&color=8A2BE2&center=true&vCenter=true&width=800&lines=OODO HACKATHON;" alt="Typing Animation">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=40&duration=3000&pause=1000&color=8A2BE2&center=true&vCenter=true&width=800&lines=OODO HACKATHON;">
 
 **Trying out best**
 
