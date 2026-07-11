@@ -11,5 +11,3 @@ OODO HACKATHON
 </div>
 
 > **"A Work of 3 ppl"**
-
----
