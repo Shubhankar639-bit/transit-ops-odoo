@@ -1,0 +1,15 @@
+{
+  "name": "transitops-integrated",
+  "version": "1.0.0",
+  "scripts": {
+    "setup:backend": "cd Backend && python -m venv venv && venv\\Scripts\\activate.bat && pip install -r requirements.txt",
+    "setup:frontend": "npm install --prefix Frontend",
+    "setup": "npm run setup:frontend && npm run setup:backend",
+    "dev:backend": "cd Backend && .\\venv\\Scripts\\python main.py",
+    "dev:frontend": "npm run dev --prefix Frontend",
+    "start": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
