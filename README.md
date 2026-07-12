@@ -1,13 +1,8 @@
-<div align="center">
-OODO HACKATHON
+# React + Vite
 
-**Trying out best**
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-[![](https://img.shields.io/badge/OM_Sawant-8A2BE2?style=for-the-badge)](#)
-[![](https://img.shields.io/badge/Manaswi_Sulake-05FFFF?style=for-the-badge)](#)
-[![](https://img.shields.io/badge/Shubhankar_Padhye-FF0000?style=for-the-badge)](#)
+Currently, two official plugins are available:
 
-<br>
-</div>
-
-> **"A Work of 3 ppl"**
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
