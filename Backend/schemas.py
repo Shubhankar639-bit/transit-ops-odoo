@@ -9,25 +9,30 @@ class LoginRequest(BaseModel):
     email: EmailStr
     password: str
 
+class RoleResponse(BaseModel):
+    id: int
+    name: str
+    type: RoleType
+    
+    class Config:
+        from_attributes = True
+        
+class UserResponse(BaseModel):
+    id: int
+    email: str
+    full_name: str
+    role: RoleResponse
+    is_active: bool
+
+    class Config:
+        from_attributes = True
+
 class LoginResponse(BaseModel):
     access_token: str
     token_type: str
     user: "UserResponse"
 
-class UserResponse(BaseModel):
-    id: int
-    email: str
-    full_name: str
-    role: "RoleResponse"
-    is_active: bool
-    
-    class Config:
-        from_attributes = True
 
-class RoleResponse(BaseModel):
-    id: int
-    name: str
-    type: RoleType
     
     class Config:
         from_attributes = True
